@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #000000;
+  --bg-card: #0E1218;
+  --text: #F1F1F1;
+  --img-profile: #8257e5;
+  --buttons: #FFF;
+  --border-button: #1A1A1A;
+
+  font-family: 'Prompt', sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  color: var(--text);
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  color: var(--text);
+}
+
+ul li {
+  display: flex;
+}
