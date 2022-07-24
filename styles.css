@@ -43,6 +43,142 @@ a {
   color: var(--text);
 }
 
-ul li {
+main {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--bg-card);
+
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  padding: 3rem 0rem;
+
+}
+
+.col-a .background {
+  width: 43.8rem;
+  height: 69.3rem;
+  
+  border-radius: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: var(--bg);
+
+}
+
+#card{
+  width: 40.7rem;
+  height: 64.4rem;
+  border-radius: 5rem;
+
+  background-color: var(--bg-card);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+#card header {
+  display: flex;
+  align-items: center;
+
+  margin-top: 3.778rem;
+  margin-left: 3.358rem;
+  margin-bottom: 1.178rem;
+  gap: 1.944rem;
+}
+
+#card header img {
+  width: 5.542rem;
+  height: 5.444rem;
+
+  border-radius: 50%;
+  border: 1px solid var(--text);
+  padding: 1rem;
+}
+
+img.profile-image{
+  width: 37.378rem;
+  height: 37.2rem;
+
+  border: 1rem solid var(--img-profile);
+  border-radius: 30rem;
+
+  margin-left: 9.2rem;
+}
+
+#card .info ul {
+  margin-top: -13rem;
+  margin-left: 2.113rem;
+
+  width: 19.55rem;
+  height: 19.47rem;
+
+  background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+  border-radius: 5rem;
+}
+
+#card .info ul li{
+  display: flex;
+  gap: 0.904rem;
+  align-items: center;
+  padding: 0rem 2.045rem;
+  margin: 0.813rem 0rem;
+}
+
+#card .info ul li:nth-child(1){
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+#card footer {
+ display: flex;
+ justify-content: end;
+ margin-top: 3.448rem;
+ margin-right: 1rem;
+ margin-bottom: 2.742rem;
+ gap: 1.089rem;
+}
+
+#card footer img {
+  width: 2.8rem;
+  height: 3.432rem;
+}
+
+.col-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0rem 5rem;
+
+  /* overflow: hidden; */
+}
+
+.col-b h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  color: var(--text);
+}
+.col-b button {
+  width: 229px;
+  height: 59.47px;
+
+  background: var(--buttons);
+  border: 2px solid var(--border-button);
+  border-radius: 1.5rem;
+
+  cursor: pointer;;
 }
