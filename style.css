@@ -44,9 +44,6 @@ a {
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
-
   background-color: var(--bg-card);
 
   display: flex;
@@ -57,9 +54,11 @@ main {
 
   padding: 3rem 0rem;
 
+  width: 100vw;
+  height: 100vh;
 }
 
-.col-a .background {
+.col-a #background {
   width: 43.8rem;
   height: 69.3rem;
   
@@ -180,5 +179,24 @@ img.profile-image{
   border: 2px solid var(--border-button);
   border-radius: 1.5rem;
 
-  cursor: pointer;;
+  cursor: pointer;
+}
+
+.col-b button:hover{
+  filter: brightness(0.8);
+  transition: 0.5s;
+}
+
+@media (min-width: 1023px) {
+
+  main {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+
+    gap: 15rem;
+    margin: auto;
+  }
 }
